@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #0F253E;
+}
+
+#HOME-PAGE { 
+    position: relative; 
+    width: 100vw;
+    height: 100vh;
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+
+    background: #0F253E;
+}
+
+#HOME-PAGE-TITLE {
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 157px; 
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    left: 15px;
+    top: 610px;
+
+}
+
+#H-P-T-AI {
+    color: #8978F6;
+}
+
+#HOME-PAGE-HEXAGON-TRIANGLES path {
+}
