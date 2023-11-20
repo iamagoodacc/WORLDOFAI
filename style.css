@@ -22,29 +22,54 @@
     /*overflow: hidden;*/
     overflow-x: hidden;
 
-    background: #0F253E;
+    background: #16141E;
 }
 
-#HOME-PAGE-TITLE {
+#HP-Title {
+    position: absolute;
+    width: 668px;
+    height: 96px;
+    left: 18px;
+    top: 236px;
+
     font-family: 'Saira Condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 75px;
-    line-height: 157px; 
+    font-size: 80px;
+    line-height: 126px;
     letter-spacing: -0.01em;
+
     color: #FFFFFF;
-    
+}
+
+#HP-T-Caption {
     position: absolute;
-    width: 400px;
-    height: 120px;
-    left: 15px;
-    top: 610px;
+    width: 549px;
+    height: 82px;
+    left: 18px;
+    top: 342px;
 
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    /* or 114% */
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
 }
 
-#H-P-T-AI {
+#NODE-Template {
+    position: absolute;
+    width: 1148px;
+    height: 672px;
+    left: calc(50% - 1148px/2 + 170px);
+    top: calc(50% - 672px/2);
+
+    background: rgba(217, 217, 217, 0.1);
+}
+
+.HP-T-CustomWords {
     color: #8978F6;
-}
-
-#HOME-PAGE-HEXAGON-TRIANGLES path {
 }
